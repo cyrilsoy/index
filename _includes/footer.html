@@ -1,0 +1,12 @@
+<footer>
+  <div class="content-wrapper contact" id="contact">
+    <div class="contact-links">
+    {% for item in site.contact %}
+      <i class="fa {{ item.icon }}"><a href="{{ item.account }}"></i></a>
+    {% endfor %}
+    </div>
+    <div class="contact-copyright">
+      &copy; {{ site.time | date: "%Y" }} {{ site.author }}
+    </div>
+  </div>
+</footer>

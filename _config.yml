@@ -1,0 +1,49 @@
+# Site settings
+title: Cyril's Blog
+author: Cyril Wong
+description: "The stars, my destination."
+url: "https://cyril.soy"
+alt_url:
+  - "https://cyrilsoy.com"
+baseurl: /
+encoding: utf-8
+markdown: kramdown
+assets: /assets
+
+# Menu
+menu:
+  - pages/archive.md
+  #- pages/project.md
+  - pages/about.md
+  
+# Contact Icons
+contact:
+  - link: mailto:cyrilsoy@gmail.com
+    icon: fa-envelope-o
+  - link: https://github.com/cyrilsoy
+    icon: fa-github
+  - link: https://twitter.com/cyrilsoy
+    icon: fa-twitter
+  - link: https://instagram.com/cyrilsoy
+    icon: fa-instagram
+
+# GitHub Repo for your site
+# issue_report:
+#   github: cyrilsoy/cyrilsoy.github.io
+
+# Google Analytics
+google_analytics: UA-174569516-1
+
+# Disqus
+# disqus:
+#   shortname: cyrilsoy
+
+# Exclusion
+exclude:
+  - Rakefile
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - jekyll-crisp-minimal-theme.gemspec
+  - pages/project.md
